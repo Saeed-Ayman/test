@@ -1,10 +1,5 @@
 <script setup lang="ts">
-const todosProgramming: string[] = [
-  "🍴 eat",
-  "💤 sleep",
-  "👨🏻‍💻 code",
-  "🔁 repeat",
-];
+const todosProgramming: string[] = ["🍴 eat", "💤 sleep", "👨🏻‍💻 code", "🔁 repeat"];
 </script>
 
 <template>
