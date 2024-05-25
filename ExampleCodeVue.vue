@@ -5,16 +5,10 @@ const todosProgramming: string[] = ["🍴 eat", "💤 sleep", "👨🏻‍💻 c
 <template>
   <div class="bg-gray-900 py-10 grid place-items-center">
     <div class="todos">
-      <div class="todo-title text-sm sm:text-base xl:text-2xl">
-        Programming Life
-      </div>
+      <div class="todo-title text-sm sm:text-base xl:text-2xl">Programming Life</div>
 
       <ul class="mt-2">
-        <li
-          class="text-xs sm:text-sm xl:text-base"
-          v-for="todo in todosProgramming"
-          :key="todo"
-        >
+        <li class="text-xs sm:text-sm xl:text-base" v-for="todo in todosProgramming" :key="todo">
           {{ todo }}
         </li>
       </ul>
